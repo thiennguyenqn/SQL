@@ -2,7 +2,7 @@ CREATE FUNCTION fuThanhTien(
 @giaban int,
 @soluong int,
 @mucgiamgia dec)
-RETURNS dec
+RETURNS dec --trả về giá trị thập phân
 AS
 BEGIN
 	RETURN @giaban*@soluong-@mucgiamgia;
